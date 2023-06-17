@@ -1,6 +1,6 @@
 ## Create Compute Cluster and Compute Instance
 
-Compute resource is among the most expensive resources. <br><br>
+`Note` Compute resource is among the most expensive resources. so if you dont need it detele . also if you dont want to use it immediately and still created it then delete it. <br><br>
 Let go to the Azure Machine Learning Studio and Create Compute Cluster for the designer <br><br>
 Steps : <br>
 `1.` Click on the compute icon left side <br>
@@ -23,3 +23,5 @@ Steps : <br>
 - now it will ask the compute name.
 - write AML-CL-D001 as compute name.
 - now just click `create` to start creating compute instance ..
+
+
