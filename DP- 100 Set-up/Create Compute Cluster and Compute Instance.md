@@ -10,3 +10,6 @@ Steps : <br>
 `5.` Select the one with two core and maximum ram as we are just learning <br>
 `6.` Select Standard_D11_v2 having core :2, Ram 14GB, Storage 100GB, $0.18/hr <br>
 `7.` Click next <br>
+`8.` in Configure settings Write the compute name AML-CC-A001  <br>
+`9.` Select minimum number of nodes as 1 and maximum as 1 <br>
+`10.` 
