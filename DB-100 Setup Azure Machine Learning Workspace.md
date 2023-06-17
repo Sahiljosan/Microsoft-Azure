@@ -18,3 +18,8 @@ Steps : <br>
 ### Create Compute Instance
 - click on compute instance tab
 - click on create compute instance
+- select virtual machine with the least possible cost Standard_D2_v3  2 8core 8GB 50GB
+- click next
+- now it will ask the compute name.
+- write AML-CL-D001 as compute name.
+- now just click `create` to start creating compute instance ..
