@@ -1,4 +1,4 @@
-## Create Compute Cluster and Compute Instance.md
+## Create Compute Cluster and Compute Instance
 
 Compute resource is among the most expensive resources. <br><br>
 Let go to the Azure Machine Learning Studio and Create Compute Cluster for the designer <br><br>
@@ -12,4 +12,4 @@ Steps : <br>
 `7.` Click next <br>
 `8.` in Configure settings Write the compute name AML-CC-A001  <br>
 `9.` Select minimum number of nodes as 1 and maximum as 1 <br>
-`10.` 
+`10.` Click create <br>
