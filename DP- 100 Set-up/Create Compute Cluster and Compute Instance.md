@@ -2,7 +2,7 @@
 
 Compute resource is among the most expensive resources. <br><br>
 Let go to the Azure Machine Learning Studio and Create Compute Cluster for the designer <br><br>
-Steps :
+Steps : <br>
 `1.` Click on the compute icon left side <br>
 `2.` Under Compute Clusters tab click on create <br>
 `3.` Here you will create a virtual machine in our region of your workspace.<br>
