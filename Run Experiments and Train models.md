@@ -1,0 +1,36 @@
+## Create a Pipeline using AzureML Designer
+- in the home page of resources click on start now tab in Designer
+- on designer page click on + button
+- now our designer interface opens
+- we have the canvas in the middle where we can drag and drop our modules
+- we have the list of modules on the left side
+- in the search box we can search any module
+- now change the name of the pipeline to `loan automation`
+- then below this we have a button  `show assets library` to hide and show the libray
+- Now First get out data from data set 
+- just drag and drop loan application dataset from asset group of dataset
+- when we click on the dataset in canvas , we will see the parameter on the right side
+     - in the output we will see an icon and by clicking on it. we see the visualizations
+- Now drag and drop select columns in dataset and made node between loan application dataset and select column in dataset box
+- in properties now we will select columns by clicking on `edit column`
+      - On that screen we will choose edit by name
+      - then select the columns that we need by clicking the + sign
+      - select the dependent or target feature also
+- To remove the missing values in our dataset , search for `clean Missing data` and drag and drop it to our canvas to clean the missing data
+      - in properties click on edit column
+      - click on select columns by name, on which we want to perform the cleaning operations
+      - leave minimum missing value ratio and maximum missing value ratio to their default values
+      - in cleaning mode choose remove entire row
+- The next step is to split the data into train and test
+- search for split data
+- and drag and drop it on the canvas
+- connect 1st output node on clean missing data to split data
+      - in properties on split data
+      - keep splitting mode as split rows, because we are going to split this dataset into rows
+      - keep fraction of rows in the first output dataset to 0.7, which means 70% record will be used to train dataset and 30% for test dataset
+      - leave randomized split as tick
+      - keep random seed as 123
+      - put stratified split as True
+      - in stratified key column, click on edit column to select the column name for stratification basicall select the target column, in our case it is `Loan_Status`
+      - Now we are ready to train our algorithm
+- 
