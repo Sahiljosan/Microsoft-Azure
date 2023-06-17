@@ -13,4 +13,8 @@ Steps : <br>
 `8.` in Configure settings Write the compute name AML-CC-A001  <br>
 `9.` Select minimum number of nodes as 1 and maximum as 1 <br>
 `10.` Click create <br>
-`11.` 
+
+
+### Create Compute Instance
+- click on compute instance tab
+- click on create compute instance
