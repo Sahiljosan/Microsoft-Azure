@@ -33,5 +33,20 @@
            - keep random seed as 123 <br>
            - put stratified split as True <br>
            - in stratified key column, click on edit column to select the column name for stratification basicall select the target column, in our case it is `Loan_Status` <br>
+           - Click on save
            - Now we are ready to train our algorithm <br>
-- 
+- To train the model we use two class logistic regression
+- Search for two class logistic regression and drag and drop it on the canvas
+- search for train model and drag and drop it on canvas
+- connect one node from `Spilt Data output` to `train model input`
+- also connect one node from output of `two class logistic regression` to input of `train model`
+- click on logistic regression module to see the properties and in random seed provide value 123 and keep the rest values as it is
+- click train model module to go to properties and in edit column select the target variable `Loan_status`
+- click save it
+- search for score model and drag and drop it in canvas
+- now connect the output node of train model to one input node of score model
+- and connect the output node of split data to second input node of score model
+- now search for evaluate model and drag and drop it in canvas below the score model
+- connect the output of score model to the 1st node of evaluate model
+- thats it , we only have 1 model so only 1 connection from the score
+- this completes our 1st pipeline in the designer
