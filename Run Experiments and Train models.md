@@ -9,6 +9,7 @@
 - then below this we have a button  `show assets library` to hide and show the libray
 - Now First get out data from data set 
 - just drag and drop loan application dataset from asset group of dataset
+          - my name is sahil
 - when we click on the dataset in canvas , we will see the parameter on the right side <br>
           - in the output we will see an icon and by clicking on it. we see the visualizations
 - Now drag and drop select columns in dataset and made node between loan application dataset and select column in dataset box
