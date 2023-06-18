@@ -70,3 +70,13 @@
 - similarly change compute cluster [A001] for score model also <br>
 - now click on settings again <br>
 - under `Default output settings` -> Select default datastore -> here we can see that the default datastore is already selected, we can create new datastore also if we want <br>
+- After everything is done, click on submit
+- Thet it will ask to `select an experiment`
+- click on `create new`
+- give new name as `LoanExperiment`
+- also it will show different compute target we have selected for different modules
+- now cick on submit
+- then it will submit the run pipeline
+- Running the pipeline will take lot of time
+- 1st it shows queued -> running -> competed
+- Once it is  completed we can right click on any module -> click on visualize -> this will show us evaualtion result
