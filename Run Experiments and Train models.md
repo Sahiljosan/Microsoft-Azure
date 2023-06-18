@@ -50,3 +50,23 @@
 - connect the output of score model to the 1st node of evaluate model
 - thats it , we only have 1 model so only 1 connection from the score
 - this completes our 1st pipeline in the designer
+
+
+## Submit the designer pipeline run
+- to run the pipeline we have to go to the settings
+- there are two important setting: run settings and output settings
+- in `default compute target`, we need to specify the compute target to run our pipeline <br>
+              - click on `select compute target` link <br>
+              - Click on create new to create compute target <br>
+              - to make it easy azureML will recommend some machine usually 2 nodes <br>
+              - u can simply give a new name and create one <br>
+              - or u can click on `compute->training cluster` link, and it will open the same page to create cluster that we say earlier <br>
+              - but we have already created cluster so we go to select existing and click on existing cluster which we have already created `AML-CC-D001` <br>
+              - click save and this will become our default compute target on which all these modules will run <br>
+- But as we discussed earlier we want some of these module to run on different clusters <br>
+- For that suppose we want `train model` module to run on different cluster <br>
+- click on train model module -> go to its properties ->under the run setting -> here we can  change compute cluster <b>
+- here we can use other cluster with higher core and processing power <br>
+- similarly change compute cluster [A001] for score model also <br>
+- now click on settings again <br>
+- under `Default output settings` -> Select default datastore -> here we can see that the default datastore is already selected, we can create new datastore also if we want <br>
