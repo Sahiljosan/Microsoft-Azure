@@ -1,4 +1,4 @@
-## Run Experiments and Train Model
+# Run Experiments and Train Model
 - [Create a Pipeline using AzureML Designer](#create-a-pipeline-using-azureml-designer)
 - [Submit the designer pipeline run](#submit-the-designer-pipeline-run)
 
