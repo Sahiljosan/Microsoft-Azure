@@ -56,6 +56,8 @@
 - thats it , we only have 1 model so only 1 connection from the score
 - this completes our 1st pipeline in the designer
 
+[Go To Top](#run-experiments-and-train-model)
+
 
 ## Submit the designer pipeline run
 - to run the pipeline we have to go to the settings
@@ -85,3 +87,5 @@
 - Running the pipeline will take lot of time
 - 1st it shows queued -> running -> competed
 - Once it is  completed we can right click on any module -> click on visualize -> this will show us evaualtion result
+
+  [Go To Top](#run-experiments-and-train-model)
