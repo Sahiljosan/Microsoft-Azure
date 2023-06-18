@@ -1,3 +1,8 @@
+## Run Experiments and Train Model
+- [Create a Pipeline using AzureML Designer](#create-a-pipeline-using-azureml-designer)
+- [Submit the designer pipeline run](#submit-the-designer-pipeline-run)
+
+
 ## Create a Pipeline using AzureML Designer
 - in the home page of resources click on start now tab in Designer
 - on designer page click on + button
